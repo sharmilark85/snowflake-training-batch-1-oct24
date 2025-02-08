@@ -1,0 +1,1 @@
+select *,current_timestamp() as load_ts from {{ source('jaffle_shop', 'orders') }}
