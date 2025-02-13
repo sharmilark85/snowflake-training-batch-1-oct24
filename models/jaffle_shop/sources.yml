@@ -5,3 +5,8 @@ sources:
     tables:
       - name: orders
       - name: customers
+  - name: stripe
+    database: jaffle_raw
+    schema: stripe
+    tables:
+      - name: payments
